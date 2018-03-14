@@ -1,5 +1,5 @@
 # MEMD-Python-
-Python version of the Multivariate Empirical Mode Decomposition algorith
+Python version of the Multivariate Empirical Mode Decomposition algorithm
 
 
 Created on Wed Mar 14 16:50:30 2018
