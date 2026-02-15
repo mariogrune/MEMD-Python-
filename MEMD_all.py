@@ -527,8 +527,6 @@ def set_value(*args):
     # Rescale input signal if required
     if len(q) == 0:                                                            # Doesn't do the same as the Matlab script
         sys.exit('emptyDataSet. Data set cannot be empty.')
-    if np.shape(q)[0] < np.shape(q)[1]:
-        q=q.transpose()
         
     # Dimension of input signal
     N_dim = np.shape(q)[1]
@@ -631,4 +629,5 @@ def memd(*args):
     #sprintf('Elapsed time: %f\n',toc);
 
     return(q)
+
 # =============================================================================
